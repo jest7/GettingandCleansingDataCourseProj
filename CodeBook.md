@@ -14,6 +14,12 @@ Source data contains a total of nine text files that were used for this analysis
 * subject_train.txt - Subject Number information for the training data
 * y_train.txt - Activity data for the training subjects
 
+The dataset contains the following variables:
+* Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+* Triaxial Angular velocity from the gyroscope. 
+* A 561-feature vector with time and frequency domain variables. 
+
+
 ## Data Prep
 Each file above was imported into the r environment.  Following the import, activity labels were appended to the test and training raw data files.  The Activity, Subject, and Activity Description files were appended to each data set to provide a complete set of information for each subject per activity.  
 
